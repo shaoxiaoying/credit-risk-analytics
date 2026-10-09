@@ -1,0 +1,13 @@
+.venv/
+work/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.log
+# The UCI workbook is downloaded separately; do not redistribute it here.
+data/raw/*
+!data/raw/.gitkeep
+# Regenerated results are intentionally not committed.
+data/processed/*
+!data/processed/.gitkeep
